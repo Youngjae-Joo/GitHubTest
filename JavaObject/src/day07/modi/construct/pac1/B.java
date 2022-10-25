@@ -1,0 +1,12 @@
+package day07.modi.construct.pac1;
+
+public class B {
+
+//	A a = new A(10);//ok-public
+//	A b = new A(true);//ok-default
+//	A c = new A("a");//no-private
+		
+	
+	
+	
+}
