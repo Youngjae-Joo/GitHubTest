@@ -35,9 +35,9 @@ public class DateCrate {
 
 		for(Date d : days) {
 			if(sametime.format(new Date()).equals(sametime.format(d))) {
-				JOptionPane.showMessageDialog(null, whattime.format(d));
+				JOptionPane.showMessageDialog(a, whattime.format(d));
 			}else {
-				JOptionPane.showMessageDialog(null, sametime.format(d));
+				JOptionPane.showMessageDialog(a, sametime.format(d));
 			}
 		}
 
