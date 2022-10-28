@@ -54,9 +54,5 @@ public class AnonymousMain {
 				System.out.println("테란의 공격");
 			}
 		}.attack();
-		
-		//한번만 쓸꺼면 이름도 필요가 없다
-		
-		
 	}
 }
