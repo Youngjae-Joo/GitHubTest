@@ -55,7 +55,7 @@ public class AnonymousMain {
 			}
 		}.attack();
 		
-		//한번만 쓸꺼면 이름도 필요가 없다-Lambda
+		//한번만 쓸꺼면 이름도 필요가 없다
 		
 		
 	}

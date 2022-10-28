@@ -66,6 +66,11 @@ public class MainClass {
 			}
 		}
 		
+		String[] str = msg.split("GCCG");
+		for(int i=0;i<str.length;i++) {
+			int a = msg.indexOf(str[i]);
+			
+		}
 		
 
 		System.out.println("=====================");
@@ -76,7 +81,7 @@ public class MainClass {
 		//3.IP별 트래픽의 합
 
 
-
+		
 
 	}
 
