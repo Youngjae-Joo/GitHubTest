@@ -1,4 +1,4 @@
-package java_1026_Set_Ex;
+package java_1026.Set_Ex;
 
 import java.util.ArrayList;
 import java.util.Random;

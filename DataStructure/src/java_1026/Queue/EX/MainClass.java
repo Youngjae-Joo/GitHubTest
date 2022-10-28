@@ -1,4 +1,4 @@
-package Java_1026_Queue.EX;
+package java_1026.Queue.EX;
 
 import java.util.Comparator;
 import java.util.Date;

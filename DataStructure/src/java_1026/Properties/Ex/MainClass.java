@@ -1,4 +1,4 @@
-package java_1026_Properties.Ex;
+package java_1026.Properties.Ex;
 
 import java.io.FileOutputStream;
 import java.util.Properties;

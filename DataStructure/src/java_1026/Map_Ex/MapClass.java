@@ -1,4 +1,4 @@
-package java_1026_Map_Ex;
+package java_1026.Map_Ex;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package Java_1026_Queue.EX;
+package java_1026.Queue.EX;
 
 //인터페이스
 interface Starcraft{
