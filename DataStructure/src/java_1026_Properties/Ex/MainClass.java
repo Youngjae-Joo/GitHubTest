@@ -30,5 +30,14 @@ public class MainClass {
 		}
 		
 		
+	
+		try {
+		properties.storeToXML(new FileOutputStream("./myproject.xml"), "xml로 저장");
+		}catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
+		
+		
 	}
+
 }
