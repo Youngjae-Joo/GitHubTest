@@ -1,4 +1,4 @@
-package java_1028.thread;
+package java_1028.Thread;
 
 //Thread 클래스로부터 상속받는클래스를 생성
 class ThreadEx extends Thread{
