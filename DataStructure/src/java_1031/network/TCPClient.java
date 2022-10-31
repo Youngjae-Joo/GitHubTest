@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class TCPClient {
 	public static void main(String[] args) {
-		//자기 컴퓽터에 전송할 때는 127.0.0.1.입니다.
+		//자기 컴퓨터에 전송할 때는 127.0.0.1.입니다.
 		try(Scanner scan = new Scanner(System.in)){
 			
 			while(true) {

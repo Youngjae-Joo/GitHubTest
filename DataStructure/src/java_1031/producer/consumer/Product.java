@@ -13,7 +13,7 @@ public class Product {
 		list=new ArrayList<>();
 	}
 	
-	//셍신지 메서드
+	//생산자 메서드
 	public synchronized void put(Character ch) {
 		list.add(ch);
 		System.out.println("창고에 제품 "+ch+"가 입고 되었습니다.");
