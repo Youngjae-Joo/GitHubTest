@@ -2,10 +2,13 @@ package theatherSeat;
 
 import java.awt.Font;
 import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+
 
 public class MainMenu {
 
@@ -20,7 +23,7 @@ public class MainMenu {
 
 
 		//프레임 조절
-		j.setTitle("회원가입");//프레임 타이틀
+		j.setTitle("LogIn/SignUp");//프레임 타이틀
 		j.setFont(font1);
 		j.setSize(600,600);//프레임 사이즈 통일
 		j.setLocationRelativeTo(null);//언제나 가운데에 뜨기
@@ -38,6 +41,29 @@ public class MainMenu {
 		j.add(row1);
 		j.add(pan1);
 		j.add(row2);
+		
+		signinbutton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				j.setVisible(false);
+				new SignInClass2();
+			}
+		});
+		
+		loginbutton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				j.setVisible(false);
+				new LogInSwing();
+			}
+		});
+		
+		
+		
+		
 		
 		
 	}

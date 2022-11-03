@@ -88,6 +88,9 @@ public class Login {//회원가입한 고객 클래스
 		return "나이:"+InfoAge;
 	}
 
+	public static void main(String[] args) {
+		new Login();
+	}
 
 
 

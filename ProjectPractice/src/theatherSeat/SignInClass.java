@@ -17,6 +17,7 @@ public class SignInClass {
 	public SignInClass() {
 		super();
 		// TODO Auto-generated constructor stub
+		setId();
 	}
 
 
@@ -191,4 +192,13 @@ public class SignInClass {
 			System.out.println(e.getLocalizedMessage());
 		}
 	}
+	
+	//확인용 메인
+	public static void main(String[] args) {
+		new SignInClass();
+		
+	}
+	
+	
+	
 }
