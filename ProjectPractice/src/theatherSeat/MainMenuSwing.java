@@ -10,9 +10,9 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 
-public class MainMenu {
-
-	MainMenu(){
+public class MainMenuSwing {
+	//생성자
+	MainMenuSwing(){
 		JFrame j = new JFrame();
 		JPanel row1 = new JPanel();
 		JPanel row2 = new JPanel();
@@ -21,7 +21,6 @@ public class MainMenu {
 		JButton signinbutton = new JButton("<html><body><center>회원가입<br> <br>WELCOME!</center></body><html>");
 		Font font1=new Font("맑은고딕",Font.BOLD,15);
 
-
 		//프레임 조절
 		j.setTitle("LogIn/SignUp");//프레임 타이틀
 		j.setFont(font1);
@@ -29,6 +28,9 @@ public class MainMenu {
 		j.setLocationRelativeTo(null);//언제나 가운데에 뜨기
 		j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//창이 닫히면 종료
 		j.setVisible(true);
+		
+		//이미지
+		
 
 		//패널조정	
 		j.setLayout(new GridLayout(3,0));//프레임 3등분하여 패널 3개 넣기
@@ -41,18 +43,18 @@ public class MainMenu {
 		j.add(row1);
 		j.add(pan1);
 		j.add(row2);
-		
+
 		signinbutton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
 				j.setVisible(false);
-				new SignInClass2();
+				new SignInSwing();
 			}
 		});
-		
+
 		loginbutton.addActionListener(new ActionListener() {
-			
+
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
@@ -60,33 +62,12 @@ public class MainMenu {
 				new LogInSwing();
 			}
 		});
-		
-		
-		
-		
-		
-		
+
 	}
-
-
-	
-	
-	
 	
 	
 	//실행용
 	public static void main(String[] args) {
-		new MainMenu();
+		new MainMenuSwing();
 	}
-
-
-
-
-
-
-
-
-
-
-
 }

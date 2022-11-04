@@ -12,28 +12,23 @@ public class Main{
 		//				String[] sr=s.split(" ");
 		//				System.out.println(Arrays.toString(sr));
 
-
+		System.out.println(Solution.solution("3 + 4"));
 
 	}
 
 	public static class Solution {
-	    public int[][] solution(int[] num_list, int n) {
-	        int[][] answer = new int[num_list.length/n][n];
-	        
-	        int h=0;
-	        for(int i=0;i<num_list.length/n;i++) {
-	        	for(int j=0;j<n;j++) {
-	        		answer[i][j]=num_list[h];
-	        		h++;
-	        	}
-	        }
-	        
+		public static int solution(String my_string) {
+	        int answer = 0;
+	        my_string=my_string.replaceAll(" ", "");
+	        answer = Integer.parseInt(my_string);
 	        return answer;
 	    }
 	}
-	
-	
-	
+
+
+					
+
+
 	//
 	//		public static class Solution {
 	//			public static String solution(String s) {
